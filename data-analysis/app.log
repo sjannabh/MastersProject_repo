@@ -1,0 +1,1260 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 19:55:54] "[33mGET /api/v1/getPopularRecommendedData/?productId=B08HDJ86NZ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 19:58:09] "GET /api/v1/getPopularRecommendedData?productId=B08HDJ86NZ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:04:08] "GET /api/v1/loadProductsData HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask_cors\\extension.py', reloading
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:08:50] "[35m[1mGET /api/v1/loadProductsData HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\settings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\mongo_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Util\\MongodbClient.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\threading.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:14:54] "GET /api/v1/loadProductsData HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:16:16] "GET /api/v1/loadUsersData HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:17:48] "GET /api/v1/loadReviewsData HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:26:02] "[33mGET /api/v1/ngfd,jhfgc,jhgfhk.hmxfgj,kh HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_eventloop.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_fileio.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\to_thread.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_resources.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_sockets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_typedattr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_streams.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_tasks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_subprocesses.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_testing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_synchronization.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\lowlevel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_tasks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_testing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\from_thread.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\lib\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_resources.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_signals.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_compressed.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_index.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\testing\\skipdoctest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\IRepository\\IproductsRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Util\\ReadSql.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\typing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\interactiveshell.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pandas\\io\\json\\_normalize.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 20:58:05] "GET /api/v1/loadProductsData HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\frame.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\algorithms.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\series.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\reshape\\concat.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\fixtures.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\config\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\junitxml.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\api\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\io\\parsers\\readers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\settings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Util\\MongodbClient.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\mongo_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\threading.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:57:40] "GET /api/v1/loadProductsData HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2024 21:58:49] "GET /api/v1/loadProductsData HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\settings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\settings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\mongo_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\mongo_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Util\\MongodbClient.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Util\\MongodbClient.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\threading.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\threading.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2024 12:31:14] "GET /api/v1/loadUsersData HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask_cors\\extension.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask_cors\\extension.py', reloading
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2024 12:33:55] "[35m[1mGET /api/v1/loadUsersData HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2024 12:34:42] "GET /api/v1/loadUsersData HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_eventloop.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\lib\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\lib\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_fileio.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_fileio.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\to_thread.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_resources.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_resources.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_sockets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_sockets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_typedattr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_typedattr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_streams.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_tasks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_tasks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_subprocesses.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_subprocesses.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_testing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_synchronization.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_synchronization.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\lowlevel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\lowlevel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_tasks.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_testing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_testing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\from_thread.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\from_thread.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_resources.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_signals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_signals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_sockets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_sockets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\streams\\stapled.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\streams\\stapled.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\streams\\tls.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\streams\\tls.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_streams.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_streams.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\streams\\memory.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\streams\\memory.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_subprocesses.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_subprocesses.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\pytest_plugin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\pytest_plugin.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_extract.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_matrix_io.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_matrix.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\matplotlib\\pyplot.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\matplotlib\\pyplot.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_compressed.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_compressed.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_index.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_index.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\frame.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\deprecations.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\deprecations.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\models\\enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\models\\enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\create.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\create.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\prefix_data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\prefix_data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\history.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\history.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\solve.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\solve.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\hookspec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\base\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\base\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\conda_argparse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\conda_argparse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\exception_handler.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\typing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2024 12:55:18] "GET /api/v1/loadReviewsData HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2024 13:10:32] "GET /api/v1/loadReviewsData HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2024 13:14:37] "GET /api/v1/loadReviewsData HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\generic.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pandas\\core\\indexing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\deprecations.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\models\\enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\create.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\prefix_data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\history.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\solve.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\hookspec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\base\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\conda_argparse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\exception_handler.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pandas\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\decomposition\\_truncated_svd.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\_set_output.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\_metadata_requests.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\metrics\\cluster\\_supervised.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_csr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_csc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_lil.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_dok.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_coo.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_dia.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_bsr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_construct.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_extract.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_matrix_io.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\scipy\\sparse\\_matrix.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\core\\overrides.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\interactiveshell.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\series.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\indexes\\base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\functools.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\operator.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\warnings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pandas\\core\\dtypes\\astype.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pandas\\core\\array_algos\\putmask.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pandas\\core\\strings\\accessor.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\collections\\abc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\lib\\function_base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\generic.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\settings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\mongo_client.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Util\\MongodbClient.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\threading.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\neighbors\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\main.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2024 17:33:25] "GET /api/v1/getPopularRecommendedProducts HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2024 17:35:26] "GET /api/v1/getPopularRecommendedProducts HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\server\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\flask_cors\\extension.py', reloading
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2024 19:54:28] "[35m[1mGET /api/v1/loadUsersData HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2024 19:56:23] "[35m[1mGET /api/v1/loadUsersData HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\lib\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_eventloop.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_fileio.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\to_thread.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_resources.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_sockets.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\_core\\_typedattr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_streams.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anyio\\abc\\_tasks.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\concurrent\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\distutils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\idlelib\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\lib2to3\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\test\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\turtledemo\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\wsgiref\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\xmlrpc\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\__phello__\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\mpl_toolkits\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\scipy\\conftest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\scipy\\version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\adodbapi\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\aiobotocore\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\alabaster\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anaconda_anon_usage\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anaconda_navigator\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\anaconda_project\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\io\\parsers\\readers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\io\\common.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\interactiveshell.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\frame.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\random\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pymongo\\settings.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\threading.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:127.0.0.1 - - [15/Jan/2024 20:10:37] "GET /api/v1/loadUsersData HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\cwp.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\cwp.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\jupyter-notebook-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\table_perf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\text_perf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\table_perf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\table_perf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\text_perf.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\benchmark\\text_perf.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\interactiveshell.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\blob.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\classifiers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\decorators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\download_corpora.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\formats.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\inflect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\mixins.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\np_extractors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\parsers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\sentiments.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\taggers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\tokenizers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\translate.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\wordnet.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\_text.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\en\\inflect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\en\\np_extractors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\en\\parsers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\en\\sentiments.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\en\\taggers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\en\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\unicodecsv\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\_text.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\_text.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\blob.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\blob.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\classifiers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\classifiers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\compat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\decorators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\decorators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\download_corpora.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\download_corpora.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\formats.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\formats.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\inflect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\inflect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\mixins.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\mixins.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\np_extractors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\np_extractors.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\parsers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\parsers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\sentiments.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\sentiments.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\taggers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\taggers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\tokenizers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\tokenizers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\translate.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\translate.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\wordnet.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\textblob\\wordnet.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\display.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\display_functions.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_ndgriddata.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\scipy\\interpolate\\_bsplines.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\joblib\\logger.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\annotation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\chart.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\geom.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\chart3d.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\graphs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\path.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\raster.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\sankey.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\stats.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\tabular.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\holoviews\\element\\tiles.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\huggingface_hub\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\hvplot\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\hyperlink\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\hyperlink\\_url.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\idna\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\idna\\core.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\idna\\intranges.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\imagecodecs\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\imagecodecs\\imagecodecs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\imageio\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\imagesize\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\imagesize\\imagesize.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\imblearn\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\imblearn\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\imblearn\\base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\importlib_metadata\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\importlib_metadata\\_meta.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\incremental\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\incremental\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\inflection\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\intake\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\intervaltree\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\ipykernel\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\ipykernel\\connect.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\jupyter_client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\jupyter_client\\connect.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\PyQt5\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pytest\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\_version.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\_code\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\_code\\code.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\assertion\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\config\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\config\\exceptions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\config\\argparsing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\fixtures.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\freeze_support.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\legacypath.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\logging.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\mark\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\mark\\structures.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\monkeypatch.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\nodes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\outcomes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\elementary\\piecewise.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\error_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\gamma_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\zeta_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\tensor_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\singularity_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\delta_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\bsplines.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\bessel.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\hyper.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\polynomials.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\spherical_harmonics.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\elliptic_integrals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\beta_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\functions\\special\\mathieu_functions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\generate.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\primetest.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\factor_.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\partitions_.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\residue_ntheory.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\multinomial.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\continued_fraction.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\ntheory\\egyptian_fraction.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\concrete\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\concrete\\products.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\concrete\\summations.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\discrete\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\discrete\\transforms.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\discrete\\convolutions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\simplify\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\simplify\\simplify.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\simplify\\fu.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sympy\\simplify\\sqrtdenest.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\__future__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\sklearn\\feature_extraction\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\feature_extraction\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\sklearn\\metrics\\_classification.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\metrics\\_classification.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\sklearn\\naive_bayes.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\frame.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\indexes\\base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\base\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\conda_argparse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\exception_handler.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\base\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\conda_argparse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\exception_handler.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\series.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\plotly\\graph_objs\\_bar.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\plotly\\offline\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\plotly\\offline\\offline.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\numpy\\_typing\\_generic_alias.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\plotly\\io\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\plotly\\optional_imports.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_plotly_utils\\optional_imports.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\plotly\\io\\_renderers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\pandas\\core\\strings\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\plaintext.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\util.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\tagged.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\cmudict.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\conll.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\chunked.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\wordlist.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\xmldocs.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\ppattach.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\senseval.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\ieer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\sinica_treebank.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\bracket_parse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\indian.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\toolbox.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\timit.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\ycoe.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\rte.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\string_category.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\propbank.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\verbnet.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\bnc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\nps_chat.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\wordnet.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\switchboard.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\dependency.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\nombank.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\ipipan.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\pl196x.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\knbc.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\chasen.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\childes.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\aligned.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\lin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\semcor.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\framenet.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\udhr.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\sentiwordnet.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\twitter.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\nkjp.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\crubadan.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\mte.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\reviews.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\opinion_lexicon.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\pros_cons.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\categorized_sents.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\comparative_sents.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\panlex_lite.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\panlex_swadesh.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\corpus\\reader\\bcp47.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\lime\\lime_text.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\core\\display.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Users\\srile\\AppData\\Roaming\\Python\\Python311\\site-packages\\sklearn\\compose\\_column_transformer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\sklearn\\compose\\_column_transformer.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\IPython\\display.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\tokenize\\destructive.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\tokenize\\api.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\nltk\\compat.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\deprecations.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\models\\enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\create.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\prefix_data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\history.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\solve.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\hookspec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\base\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\conda_argparse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\exception_handler.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\deprecations.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\models\\enums.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\create.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\prefix_data.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\history.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\core\\solve.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\types.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\hookspec.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\plugins\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\base\\context.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\conda_argparse.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\cli\\main.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\conda\\exception_handler.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\multiprocessing\\spawn.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\ProgramData\\anaconda3\\Scripts\\conda-script.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Util\\ReadSql.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\DataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\RecommenderRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\IRepository\\IdataRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\IRepository\\IproductsRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\IRepository\\IrecommenderRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\IRepository\\IbooksRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Service\\BooksRepository.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\Util\\MongodbClient.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 991-579-627
