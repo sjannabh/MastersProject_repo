@@ -9,15 +9,26 @@ export const getUsers = async (req, res) => {
 
 };
 
-// get single user
-export const getUser = (req, res) => {
+// get single user by id
+export const getUserById = (req, res) => {
 
-    const _id = req.params.id;
+    const userid = req.params.id;
 
-    const user = UserModel.findById({ _id })
-        .then(user => { console.log(user); res.json(user); })
-        .catch(err => { console.log(err); res.json(err); })
+    const user = UserModel.findOne({ userid })
+        .then(user => { console.log(user); res.status(200).json(user); })
+        .catch(err => { console.log(err); res.status(400).json(err); })
 };
+
+//get single user by email
+export const getUserByEmail = (req, res) => {
+
+    const user_email = req.params.email;
+
+    const user = UserModel.findOne({ email: user_email })
+        .then(user => { console.log(user); res.status(200).json(user); })
+        .catch(err => { console.log(err); res.status(400).json(err); })
+};
+
 
 // create new user
 export const createUser = async (req, res) => {

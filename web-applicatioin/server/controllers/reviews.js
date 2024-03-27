@@ -10,15 +10,15 @@ export const getReviews = async (req, res) => {
 
 //get single review
 export const getReview = (req, res) => {
-    const _id = req.params.id;
+    const review_id = req.params.id;
 
-    const review = ReviewModel.findById({ _id })
+    const review = ReviewModel.findOne({ review_id })
         .then(review => { console.log(review); res.json(review); })
         .catch(err => { console.log(err); res.json(err); })
 };
 
 //create a review
-export const createReview =async (req, res) => {
+export const createReview = async (req, res) => {
     const review = req.body;
     const doc = new ReviewModel({ ...review })
     await doc.save();
@@ -26,7 +26,7 @@ export const createReview =async (req, res) => {
 };
 
 //updata a review
-export const updateReview =async (req, res) => {
+export const updateReview = async (req, res) => {
     const _id = req.params.id;
 
     const review = await ReviewModel.findByIdAndUpdate(_id, req.body, { new: true })
@@ -36,7 +36,7 @@ export const updateReview =async (req, res) => {
 };
 
 // delete a review
-export const deleteReview =async (req, res) => {
+export const deleteReview = async (req, res) => {
     try {
         const _id = req.params.id;
 

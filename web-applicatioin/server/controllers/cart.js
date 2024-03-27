@@ -12,9 +12,9 @@ export const getAllCartItems = async (req, res) => {
 // get single user
 export const getSingleCartItem = (req, res) => {
 
-    const _id = req.params.id;
+    const cart_id = req.params.id;
 
-    const item = CartModel.findById({ _id })
+    const item = CartModel.findOne({ cart_id })
         .then(item => { console.log(item); res.json(item); })
         .catch(err => { console.log(err); res.json(err); })
 

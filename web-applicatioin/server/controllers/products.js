@@ -1,51 +1,44 @@
 import ProductModel from "../models/productModel/productSchema.js";
 
-//get all users
+//get all products
 export const getProducts = async (req, res) => {
     await ProductModel.find({})
         .then((allProducts) => {
-            console.log(allProducts);
-            res.json(allProducts);
+            res.status(200).json(allProducts);
         })
         .catch((err) => {
-            console.log(err);
-            res.json(err);
+            res.status(400).json(err);
         });
 };
 
-//get all users
+//get all products by name
 export const getProductsByName = async (req, res) => {
     const name = req.params.name;
 
     await ProductModel.find({})
         .then((allProducts) => {
             const results = allProducts.filter((product) => product.product_name.toLowerCase().includes(name.toLowerCase()));
-
-            console.log(results);
-            res.json(results);
+            res.status(200).json(results);
         })
         .catch((err) => {
-            console.log(err);
-            res.json(err);
+            res.status(400).json(err);
         });
 };
 
-// get single user
+// get single product by product Id
 export const getProduct = (req, res) => {
-    const _id = req.params.id;
+    const product_id = req.params.id;
 
-    const product = ProductModel.findById({ _id })
+    const product = ProductModel.findOne({ product_id })
         .then((product) => {
-            console.log(product);
-            res.json(product);
+            res.status(200).json(product);
         })
         .catch((err) => {
-            console.log(err);
-            res.json(err);
+            res.status(400).json(err);
         });
 };
 
-// create new user
+// create new product
 export const createProduct = async (req, res) => {
     const product = req.body;
     const doc = new ProductModel({ ...product });
@@ -55,9 +48,9 @@ export const createProduct = async (req, res) => {
 
 // update single user
 export const updateProduct = async (req, res) => {
-    const _id = req.params.id;
+    const product_id = req.params.id;
 
-    const product = await ProductModel.findByIdAndUpdate(_id, req.body, { new: true })
+    const product = await ProductModel.findByIdAndUpdate(product_id, req.body, { new: true })
         .then(console.log("Product updated"))
         .catch((err) => console.log(err));
     res.send("Product Updated Successfully");
