@@ -43,9 +43,14 @@ const ProductPage = () => {
   }, []);
 
   const getProduct = () => {
-    callAPI(`data/products.json`).then((productResults) => {
-      setProduct(productResults[id]);
+    API.product(id).then((searchResults) => {
+      setProduct(searchResults.data);
     });
+
+    // callAPI(`data/products.json`).then((productResults) => {
+    //   console.log(productResults[id]);
+    //   setProduct(productResults[id]);
+    // });
 
     // API.browsingHistory()
     // .then((response) => {})
@@ -64,7 +69,7 @@ const ProductPage = () => {
     return product;
   };
 
-  if (!product?.title) return <h1>Loading Product ...</h1>;
+  if (!product?.product_name) return <h1>Loading Product ...</h1>;
 
   return (
     product && (
@@ -73,7 +78,7 @@ const ProductPage = () => {
           <div className="grid grid-cols-10 gap-2">
             {/* Left */}
             <div className="col-span-3 p-8 rounded bg-white m-auto">
-              <img src={`${product.image}`} alt="" />
+              <img src={`${product.img_link}`} alt="" />
             </div>
             {/* Middle */}
             <div className="col-span-5 p-4 rounded bg-white divide-y divide-gray-400">
@@ -81,7 +86,7 @@ const ProductPage = () => {
                 <ProductDetails product={product} ratings={true} />
               </div>
               <div className="text-base xl:text-lg mt-3">
-                {product.description}
+                {product.product_description}
               </div>
             </div>
             {/* Right */}
@@ -89,12 +94,10 @@ const ProductPage = () => {
               <div className="text-xl xl:text-2xl font-semibold text-red-700 text-right">
                 {US_CURRENCY.format(product.price)}
               </div>
-              <div className="text-base xl:text-lg font-semibold text-gray-500 text-right">
+              {/* <div className="text-base xl:text-lg font-semibold text-gray-500 text-right">
                 RRP:
-                <span className="line-through">
-                  {US_CURRENCY.format(product.oldPrice)}
-                </span>
-              </div>
+                <span className="line-through">{US_CURRENCY.format(product.oldPrice)}</span>
+              </div> */}
               <div className="text-sm xl:text-base font-semibold text-blue-500 mt-3">
                 FREE Returns
               </div>

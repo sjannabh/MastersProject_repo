@@ -20,6 +20,12 @@ const ProductBadge = ({ badge }) => {
         Limited Time Deal
       </span>
     );
+  } else {
+    return (
+      <span className="text-xs xl:text-sm bg-red-500 text-white p-1">
+        On Deal
+      </span>
+    );
   }
 
   return <div></div>;

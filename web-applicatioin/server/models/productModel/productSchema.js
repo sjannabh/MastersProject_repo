@@ -1,5 +1,4 @@
-
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const productSchema = new mongoose.Schema({
     product_id: { type: String },
@@ -10,9 +9,9 @@ const productSchema = new mongoose.Schema({
     product_link: { type: String },
     product_description: { type: String },
     rating: { type: Number },
-    no_of_ratings: { type: Number }
-})
+    no_of_ratings: { type: Number },
+});
 
-const ProductModel = mongoose.model('product_data', productSchema)
+const ProductModel = mongoose.model("product", productSchema);
 
-export default ProductModel
+export default ProductModel;

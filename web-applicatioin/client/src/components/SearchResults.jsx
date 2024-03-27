@@ -4,24 +4,40 @@ import { ProductDetails } from "./";
 import { callAPI } from "../utils/CallApi";
 import { US_CURRENCY } from "../utils/constants";
 
+import * as API from "../api/serverApis.js";
+
 const SearchResults = () => {
   const [searchParams] = useSearchParams();
   const [products, setProducts] = useState(null);
 
   const getSearchResults = () => {
     const searchTerm = searchParams.get("searchTerm");
-    const category = searchParams.get("category");
+    // const category = searchParams.get("category");
 
-    callAPI(`data/search.json`).then((searchResults) => {
-      const categoryResults = searchResults[category];
-      if (searchTerm) {
-        const results = categoryResults.filter((product) =>
-          product.title.toLowerCase().includes(searchTerm.toLowerCase())
-        );
-        setProducts(results);
-      } else {
-        setProducts(categoryResults);
-      }
+    // callAPI(`data/search.json`).then((searchResults) => {
+    //   const categoryResults = searchResults[category];
+    //   if (searchTerm) {
+    //     const results = categoryResults.filter((product) =>
+    //       product.title.toLowerCase().includes(searchTerm.toLowerCase())
+    //     );
+    //     setProducts(results);
+    //   } else {
+    //     setProducts(categoryResults);
+    //   }
+    // });
+
+    API.productsList(searchTerm).then((searchResults) => {
+      const productList = searchResults.data;
+      // if (searchTerm) {
+      //   const results = productList.filter((product) => {
+      //     if (product.img_link) return product.title.toLowerCase().includes(searchTerm.toLowerCase());
+      //   });
+      //   setProducts(results);
+      // } else {
+      //   setProducts(productList);
+      // }
+
+      setProducts(productList);
     });
   };
 
@@ -31,15 +47,16 @@ const SearchResults = () => {
 
   return (
     <div className="min-w-[1200px] max-w-[1300px] m-auto pt-4">
+      {console.log(products)}
       {products &&
         products.map((product, key) => {
           return (
-            <Link key={key} to={`/product/${product.id}`}>
+            <Link key={key} to={`/product/${product.product_id}`}>
               <div className="h-[250px] grid grid-cols-12 rounded mt-1 mb-1 ">
                 <div className="col-span-2 p-4 bg-gray-200">
                   <img
                     className="m-auto"
-                    src={product.image_small}
+                    src={product.img_link}
                     alt="Search result product"
                   />
                 </div>

@@ -22,16 +22,16 @@ const ProductDetails = ({ product, ratings }) => {
   return (
     <div className="mb-1">
       <div className="text-xl xl:text-2xl font-medium mb-1">
-        {product.title}
+        {product.product_name}
       </div>
       <div className="text-sm xl:text-base mb-1">
-        <span className="text-blue-500">{product.brand}</span>
+        <span className="text-blue-500">{product.category}</span>
       </div>
       {ratings && (
         <div className="text-sm xl:text-base mb-1">
           <ProductRatings
-            avgRating={product.avgRating}
-            ratings={product.ratings}
+            avgRating={product.rating}
+            ratings={product.no_of_ratings}
           />
         </div>
       )}

@@ -137,9 +137,10 @@ class DataRepository(IdataRepository):
         #products_json_dataset = products_dataset.to_dict(orient='records')
         
         # go to MongoClient.py       
-        res = MongodbClient.db_mongo_insert_all_document(config["connection_string_mongo"],'MyDb','ProductData', products_dataset)
+        res = MongodbClient.db_mongo_insert_all_document(config["connection_string_mongo"],'test','products', products_dataset)
         
         if res == True:
+           print("Product Data Loading Done")
            return (res), 201
         else:
            return (res), 400
@@ -149,10 +150,11 @@ class DataRepository(IdataRepository):
         users_dataset = DataRepository.clean_users_data()
       
         #users_data = users_dataset.to_dict(orient='records')
-        res = MongodbClient.db_mongo_insert_all_document(config["connection_string_mongo"],'MyDb','UserData', users_dataset)
+        res = MongodbClient.db_mongo_insert_all_document(config["connection_string_mongo"],'test','users', users_dataset)
                                                                                                                                                                                                                                                                                                                         
         if res == True:
-            return (res), 201
+           print("User Data Loading Done")
+           return (res), 201
         else:
             return (res), 400
    
@@ -160,10 +162,10 @@ class DataRepository(IdataRepository):
         temp_review_df = DataRepository.clean_reviews_data()
         
         #reviews_json_dataset = temp_review_df.to_dict(orient='records')
-
-        res = MongodbClient.db_mongo_insert_all_document(config["connection_string_mongo"],'MyDb','ReviewData', temp_review_df)
+        res = MongodbClient.db_mongo_insert_all_document(config["connection_string_mongo"],'test','reviews', temp_review_df)
     
         if res == True:
+            print("Review Data Loading Done")
             return res, 201
         else:
           return (res), 400

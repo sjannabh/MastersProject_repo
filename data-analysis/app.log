@@ -1258,3 +1258,11 @@ INFO:werkzeug: * Detected change in 'C:\\Repos\\MastersProject\\data-analysis\\U
 INFO:werkzeug: * Restarting with watchdog (windowsapi)
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 991-579-627
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:7200
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 640-425-932
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 00:49:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2024 00:49:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
