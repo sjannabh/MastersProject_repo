@@ -5,8 +5,35 @@ import {
   CarouselCategory,
   CarouselProduct,
 } from "../components";
+import { useEffect, useState } from "react";
+
+import * as API from "../api/serverApis.js";
 
 const HomePage = () => {
+  const [products, setProducts] = useState(null);
+
+  const getSearchResults = () => {
+    API.productsList("usb", 10).then((searchResults) => {
+      const productList = searchResults.data;
+      setProducts(productList);
+      console.log("productList");
+      console.log(products);
+    });
+  };
+
+  useEffect(() => {
+    getRecResults().then((product) => setProducts(product));
+  }, []);
+
+  const getRecResults = () => {
+    const temp = fetch(API.productsList("usb", 10)); //.then((searchResults) => {
+    //   const productList = searchResults.data;
+    //setProducts(productList);
+    console.log("temp");
+    console.log(products);
+    return temp;
+  };
+
   return (
     <div className="bg-amazonclone-background">
       <div className="min-w-[1000px] max-w-[1500px] m-auto bg-white-400">
@@ -61,7 +88,7 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <CarouselProduct />
+        <CarouselProduct products={products} />
         <CarouselCategory />
         <div className="h-[200px]">
           <img

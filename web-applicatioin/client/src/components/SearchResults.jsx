@@ -26,7 +26,7 @@ const SearchResults = () => {
     //   }
     // });
 
-    API.productsList(searchTerm).then((searchResults) => {
+    API.productsList(searchTerm, 10).then((searchResults) => {
       const productList = searchResults.data;
       // if (searchTerm) {
       //   const results = productList.filter((product) => {
@@ -47,7 +47,6 @@ const SearchResults = () => {
 
   return (
     <div className="min-w-[1200px] max-w-[1300px] m-auto pt-4">
-      {console.log(products)}
       {products &&
         products.map((product, key) => {
           return (

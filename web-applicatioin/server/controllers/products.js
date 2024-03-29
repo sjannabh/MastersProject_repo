@@ -14,10 +14,11 @@ export const getProducts = async (req, res) => {
 //get all products by name
 export const getProductsByName = async (req, res) => {
     const name = req.params.name;
+    const count = req.params.count;
 
     await ProductModel.find({})
         .then((allProducts) => {
-            const results = allProducts.filter((product) => product.product_name.toLowerCase().includes(name.toLowerCase()));
+            const results = allProducts.filter((product) => product.product_name.toLowerCase().includes(name.toLowerCase())).slice(0, count);
             res.status(200).json(results);
         })
         .catch((err) => {

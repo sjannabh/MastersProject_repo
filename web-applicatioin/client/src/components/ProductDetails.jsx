@@ -25,7 +25,11 @@ const ProductDetails = ({ product, ratings }) => {
         {product.product_name}
       </div>
       <div className="text-sm xl:text-base mb-1">
-        <span className="text-blue-500">{product.category}</span>
+        <span className="text-blue-500">
+          {product.category.map((category) => (
+            <>{category} | </>
+          ))}
+        </span>
       </div>
       {ratings && (
         <div className="text-sm xl:text-base mb-1">
