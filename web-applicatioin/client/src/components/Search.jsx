@@ -55,7 +55,7 @@ const Search = () => {
           <option>Mobiles</option>
         </select>
         <input
-          className="flex-grow -items-center h-[100%] rounded-l text-black"
+          className="flex-grow -items-center h-[100%] rounded-l text-black p-2"
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}

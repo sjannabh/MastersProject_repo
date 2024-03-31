@@ -5,10 +5,11 @@ import json
 
 
 class MongodbClient():
-            
+           
     def parse_json(data):
         return json.loads(json_util.dumps(data, indent=4))
 
+    # Inserting Data
     def db_mongo_insert_all_document(Connection_String, dbName, dbCollection, data):
         
         #Connecting to mongodb compass
@@ -40,7 +41,8 @@ class MongodbClient():
         res = collection.insert_one(data) 
         
         return res.acknowledged
-        
+
+    # Finding Data       
     def db_mongo_find_a_document(Connection_String, dbName, dbCollection, query):
 
         #Connecting to mongodb compass
@@ -61,7 +63,28 @@ class MongodbClient():
 
         return MongodbClient.parse_json(res)
     
-    def db_mongo_update_one_field_in_document(Connection_String, dbName, dbCollection, query, newData):
+    def db_mongo_find_documents(Connection_String, dbName, dbCollection, query):
+
+        #Connecting to mongodb compass
+        client = MongoClient(Connection_String)   
+
+        #Accessing the database
+        db = client[dbName]
+
+        #Accessing the collection within the database
+        collection = db[dbCollection]
+        
+        # finding a particular document
+        x = collection.find(query) 
+        res = []
+        
+        for data in x:
+            res.append(data)
+
+        return MongodbClient.parse_json(res)
+    
+    # Updating Data
+    def db_mongo_update_one_document(Connection_String, dbName, dbCollection, query, newData):
 
         #Connecting to mongodb compass
         client = MongoClient(Connection_String)   
@@ -72,39 +95,8 @@ class MongodbClient():
         #Accessing the collection within the database
         collection = db[dbCollection]
 
-        # taking the reference of the document and setting the price value as 15.00
+        # taking the reference of the document and setting the field value
         res = collection.update_one( query, newData)
-        
-        return res.acknowledged
-    
-    def db_mango_update_sub_sub_field(Connection_String, dbName, dbCollection, query, newData):
-
-        #Connecting to mongodb compass
-        client = MongoClient(Connection_String)   
-
-        #Accessing the database
-        db = client[dbName]
-
-        #Accessing the collection within the database
-        collection = db[dbCollection]
-               
-        res = collection.update_one(query,newData)
-        
-        return res.acknowledged
-    
-    def db_mango_delete_sub_category_field(Connection_String, dbName, dbCollection, query, newData):
-
-        #Connecting to mongodb compass
-        client = MongoClient(Connection_String)   
-
-        #Accessing the database
-        db = client[dbName]
-
-        #Accessing the collection within the database
-        collection = db[dbCollection]
-        
-        # pull will remove specific value
-        res = collection.delete_one(query,newData)
         
         return res.acknowledged
     
@@ -124,7 +116,24 @@ class MongodbClient():
         res = collection.update_many(query,newData)
         
         return res.acknowledged
-    
+
+    # Deleting Data
+    def db_mongo_delete_sub_category_field(Connection_String, dbName, dbCollection, query, newData):
+
+        #Connecting to mongodb compass
+        client = MongoClient(Connection_String)   
+
+        #Accessing the database
+        db = client[dbName]
+
+        #Accessing the collection within the database
+        collection = db[dbCollection]
+        
+        # pull will remove specific value
+        res = collection.delete_one(query,newData)
+        
+        return res.acknowledged
+        
     def db_mongo_delete_all_documents(Connection_String, dbName, dbCollection, query):
 
         #Connecting to mongodb compass

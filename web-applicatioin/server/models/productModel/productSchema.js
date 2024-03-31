@@ -10,6 +10,7 @@ const productSchema = new mongoose.Schema({
     product_description: { type: String },
     rating: { type: Number },
     no_of_ratings: { type: Number },
+    product_recommendations: { type: Array }
 });
 
 const ProductModel = mongoose.model("product", productSchema);
