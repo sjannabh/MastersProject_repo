@@ -16,6 +16,7 @@ const NavBar = () => {
     localStorage.setItem("user", null);
     localStorage.setItem("authenticated", false);
     <Navigate to="/" />;
+    window.location.reload();
   };
 
   //const{user_name} = useSelector((state) => state.user)

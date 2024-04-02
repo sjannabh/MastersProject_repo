@@ -74,6 +74,7 @@ export default function SignIn() {
           localStorage.setItem("authenticated", true);
           localStorage.setItem("user", JSON.stringify(response.data));
           navigate("/");
+          window.location.reload();
         } else {
           localStorage.setItem("authenticated", false);
           localStorage.setItem("user", null);

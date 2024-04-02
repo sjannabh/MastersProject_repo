@@ -23,13 +23,11 @@ export default function SignUp() {
 
   const [lastName, setLastName] = useState("");
 
-  const [phNumber, setPhNumber] = useState("");
+  const [phNumber, setPhNumber] = useState();
 
   const [email, setEmail] = useState("");
 
   const [password, setPassword] = useState("");
-
-
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -37,7 +35,7 @@ export default function SignUp() {
     console.log({
       firstName: data.get("firstName"),
       lastName: data.get("lastName"),
-      phoneNumber: data.get("phNumber"),  
+      phoneNumber: data.get("phNumber"),
       email: data.get("email"),
       password: data.get("password"),
     });
@@ -61,7 +59,12 @@ export default function SignUp() {
           <Typography component="h1" variant="h5">
             Sign up
           </Typography>
-          <Box component="form" noValidate sx={{ mt: 3 }} onSubmit={handleSubmit}>
+          <Box
+            component="form"
+            noValidate
+            sx={{ mt: 3 }}
+            onSubmit={handleSubmit}
+          >
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
                 <TextField
@@ -88,6 +91,17 @@ export default function SignUp() {
                   onChange={(e) => setLastName(e.target.value)}
                 />
               </Grid>
+              {/* function CustomEditComponent(props: GridRenderEditCellParams) {
+  const { id, value, field, hasFocus } = props;
+  const apiRef = useGridApiContext();
+
+  const handleValueChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = event.target.value; // The new value entered by the user
+    apiRef.current.setEditCellValue({ id, field, value: newValue });
+  };
+
+  return <input type="text" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value={value} onChange={handleValueChange}  />;
+} */}
               <Grid item xs={12}>
                 <PhoneInput
                   required
@@ -95,7 +109,8 @@ export default function SignUp() {
                   placeholder="Enter phone number"
                   country={"us"}
                   value={phNumber}
-                  onChange={(e) => setPhNumber(e.target.value)}
+                  onChange={setPhNumber}
+                  //onChange={(e) => setPhNumber(parseInt(e.target.value))}
                 />
               </Grid>
               <Grid item xs={12}>

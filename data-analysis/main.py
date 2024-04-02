@@ -13,34 +13,36 @@ auth = HTTPBasicAuth() # for authentication
 logging.basicConfig(filename='app.log',level=logging.INFO)
 config = dotenv_values(".env")
 
+# ----------------------------[  Web Application  ]----------------------------
 #Home Page
 @server.route("/home",methods=['GET'])
 def homepage():
-    routeList = getDefinedRoutesList()
-    otherList =[] 
-    dataLoadingList =[]
-    dataRecommendationList =[]
-    for x in routeList:
-        if "DataLoading" in x:
-            dataLoadingList.append(x)
-        elif "DataRecommendation" in x:
-            dataRecommendationList.append(x)
-        elif "/" in x:
-            otherList.append(x)
-        
+    # routeList = getDefinedRoutesList()
+    # otherList =[] 
+    # dataLoadingList =[]
+    # dataRecommendationList =[]
+    # for x in routeList:
+    #     if "DataLoading" in x:
+    #         dataLoadingList.append(x)
+    #     elif "DataRecommendation" in x:
+    #         dataRecommendationList.append(x)
+    #     elif "/" in x:
+    #         otherList.append(x)
     
-    return render_template("index.html", otherList=otherList,dataLoadingList=dataLoadingList,dataRecommendationList=dataRecommendationList)
+    # return render_template("index.html", otherList=otherList,dataLoadingList=dataLoadingList,dataRecommendationList=dataRecommendationList)
+    return render_template("index.html")
 
 # ----------------------------[  Server Health  ]----------------------------
 #Server Health
-@server.route("/",methods=['GET'])
+@server.route("/status",methods=['GET'])
 def home():
     return "Server is up and running", 200
 
+# Test DB Connection
 @server.route("/health",methods=['GET'])
-def health():
+def testDbConnection():
 
-    response = jsonify(RecommenderRepository.testCode())
+    response = jsonify(RecommenderRepository.test_db_connection())
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response,200
 # --------------------------------------------------------------------------
@@ -73,11 +75,30 @@ def loadUsersData():
 def loadReviewsData():
     
     return jsonify(DataRepository.load_reviews_data()),200
+
+# Content Based Filtering By Cosine Similarities
+@server.route("/api/v1/DataLoading/loadContentBasedFilteringByCountVectorizer",methods=['GET'])
+# @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
+def loadContentBasedFilteringByCosineSimilarities():
+
+    response = jsonify(RecommenderRepository.loadData_content_based_filtering_by_cosine_similarities())
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response,200
+
+# Variational Autoencoder
+@server.route("/api/v1/DataLoading/loadVariationalAutoencoder",methods=['GET'])
+# @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
+def loadVariationalAutoencoder():
+
+    response = jsonify(RecommenderRepository.loadData_variational_autoencoder())
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    return response,200
+
 # --------------------------------------------------------------------------
 
 # ----------------------------[  Data Recommendation  ]----------------------------
 # Content Based Filtering By Cosine Similarities
-@server.route("/api/v1/DataRecommendation/ContentBasedFilteringByCountVectorizer",methods=['GET'])
+@server.route("/api/v1/DataRecommendation/contentBasedFilteringByCountVectorizer",methods=['GET'])
 # @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
 def content_based_filtering_by_cosine_similarities():
 
@@ -85,7 +106,7 @@ def content_based_filtering_by_cosine_similarities():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response,200
 
-# correlation Matrix On Product Rating
+# Correlation Matrix On Product Rating
 @server.route("/api/v1/DataRecommendation/correlationMatrixOnProductRating",methods=['GET'])
 # @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
 def correlation_matrix_on_product_rating():
@@ -95,7 +116,7 @@ def correlation_matrix_on_product_rating():
     return response,200
 
 # Autoencoder based Collaborative Filter Model
-@server.route("/api/v1/DataRecommendation/AutoencoderBasedCollaborativeFilterModel",methods=['GET'])
+@server.route("/api/v1/DataRecommendation/autoencoderBasedCollaborativeFilterModel",methods=['GET'])
 # @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
 def autoencoder_based_collaborative_filter_model():
 
@@ -103,12 +124,12 @@ def autoencoder_based_collaborative_filter_model():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response,200
 
-# Variatioinal Autoencoder
-@server.route("/api/v1/DataRecommendation/variatioinalAutoencoder",methods=['GET'])
+# Variational Autoencoder
+@server.route("/api/v1/DataRecommendation/variationalAutoencoder",methods=['GET'])
 # @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
-def variatioinal_autoencoder():
+def variational_autoencoder():
 
-    response = jsonify(RecommenderRepository.loadData_variatioinal_autoencoder())
+    response = jsonify(RecommenderRepository.variational_autoencoder())
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response,200
 

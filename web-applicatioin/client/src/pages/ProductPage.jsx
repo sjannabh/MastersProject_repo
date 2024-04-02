@@ -1,9 +1,9 @@
 import { useParams, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useLayoutEffect } from "react";
 import { useDispatch } from "react-redux";
 import { callAPI } from "../utils/CallApi";
 import { US_CURRENCY } from "../utils/constants";
-import { ProductDetails } from "../components";
+import { ProductDetails, CarouselProduct } from "../components";
 import { addToCart } from "../redux/cartSlice";
 
 import * as API from "../api/serverApis.js";
@@ -12,6 +12,7 @@ const ProductPage = () => {
   const { id } = useParams();
 
   const [product, setProduct] = useState(null);
+  const [products, setProducts] = useState(null);
 
   const [quantity, setQuantity] = useState("1");
 
@@ -19,41 +20,18 @@ const ProductPage = () => {
 
   useEffect(() => {
     getProduct();
-
-    // if (product !== null) {
-    //   for (var key = 0; key < localStorage.length; key++) {
-    //     console.log("localStorage.key(key)");
-    //     console.log(localStorage.key(key));
-    //     if (JSON.parse(localStorage.key(key)).id === product.id) {
-    //       localStorage.removeItem(key);
-    //     }
-    //   }
-    //   storeProductsArray.push(product);
-    // } else {
-    //   localStorage.setItem("Errors", "Issue with product");
-    // }
-
-    // if(product === null){
-
-    //   localStorage.setItem("products", JSON.stringify([]));
-    // }
-    // else{
-    //   localStorage.setItem("products", JSON.stringify(product));
-    // }
   }, []);
 
   const getProduct = () => {
+    let data = {};
     API.product(id).then((searchResults) => {
+      data = searchResults.data;
+      API.productCarouselData(data).then((searchResult) => {
+        const productList = searchResult.data;
+        setProducts(productList);
+      });
       setProduct(searchResults.data);
     });
-
-    // callAPI(`data/products.json`).then((productResults) => {
-    //   console.log(productResults[id]);
-    //   setProduct(productResults[id]);
-    // });
-
-    // API.browsingHistory()
-    // .then((response) => {})
   };
 
   if (localStorage.getItem("storedProducts") === null) {
@@ -73,7 +51,7 @@ const ProductPage = () => {
 
   return (
     product && (
-      <div className="h-screen bg-amazonclone-background">
+      <div className="bg-amazonclone-background">
         <div className="min-w-[1000px] max-w-[1500px] m-auto p-4">
           <div className="grid grid-cols-10 gap-2">
             {/* Left */}
@@ -130,8 +108,10 @@ const ProductPage = () => {
           </div>
         </div>
         <div className="min-w-[1000px] max-w-[1500px] m-auto p-4">
-          <h2>Browsing History</h2>
-          <div>display the products here</div>
+          <CarouselProduct
+            products={products}
+            carouselType="Similar Products You May Like"
+          />
         </div>
       </div>
     )

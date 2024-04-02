@@ -39,6 +39,25 @@ export const getProduct = (req, res) => {
         });
 };
 
+//get produtList from the req.body
+export const getProductList = async (req, res) => {
+    const productList = req.body.product_recommendations
+    const query = {
+        "product_id": {
+            $in: productList
+        }
+    };
+
+    await ProductModel.find(query)
+        .then((productlist) => {
+            res.status(200).json(productlist);
+        }).catch((err) => {
+            res.status(400).json(err);
+        });
+
+}
+
+
 // create new product
 export const createProduct = async (req, res) => {
     const product = req.body;

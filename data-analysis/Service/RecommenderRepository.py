@@ -29,9 +29,13 @@ config = dotenv_values(".env")
 
 class RecommenderRepository(IrecommenderRepository):
     
-    def testCode():
-        res = MongodbClient.db_mongo_find_documents(config["connection_string_mongo"],'test','products', {})
-        return res;
+    def test_db_connection():
+        res = MongodbClient.db_mongo_find_documents(config["connection_string_mongo"],'test','products', {"product_id":"B081FJWN52"})
+        
+        if res:
+           return ("Able to connect with Mongo DB"), 201
+        else:
+           return ("Unable to connect with Mongo DB"), 400       
     
     def content_based_filtering_by_cosine_similarities():
         
@@ -47,11 +51,7 @@ class RecommenderRepository(IrecommenderRepository):
         new_subset_products_dataset['data'] = new_subset_products_dataset[new_subset_products_dataset.columns[1:]].apply(lambda x: ' '.join(x.dropna().astype(str)),axis=1)
 
         new_subset_products_dataset['data']['product_name'] =products_dataset['product_name'].str.lower() 
-        products_dataset['product_description'] =products_dataset['product_description'].str.lower() 
-
-        new_subset_products_dataset = products_dataset.drop(['category','price','img_link','product_link','rating','no_of_ratings'], axis=1)
-        new_subset_products_dataset['data'] = new_subset_products_dataset[new_subset_products_dataset.columns[1:]].apply(lambda x: ' '.join(x.dropna().astype(str)),axis=1)
-
+       
         vectorizer = CountVectorizer()
         vectorized = vectorizer.fit_transform(new_subset_products_dataset['data'])
         similarities = cosine_similarity(vectorized)
@@ -175,7 +175,7 @@ class RecommenderRepository(IrecommenderRepository):
         amazon_review_data = amazon_review_data.drop_duplicates()
         
         # Creating a sparse pivot table with users in rows and items in columns
-        users_items_matrix_df = amazon_review_data.pivot(index   = 'user_id', columns = 'product_id', values  = 'rating').fillna(0)
+        users_items_matrix_df = amazon_review_data.pivot(index = 'user_id', columns = 'product_id', values  = 'rating').fillna(0)
         
         # input
         X = users_items_matrix_df.values
@@ -198,7 +198,7 @@ class RecommenderRepository(IrecommenderRepository):
         userProductRecommendationList = []
         for index, row in users_dataset.iterrows():
             userId = row['user_id']
-            tempDf = RecommenderRepository.recommender_for_user(users_items_matrix_df,user_id= userId, interact_matrix = users_items_matrix_df,df_content= amazon_review_data_ref)
+            tempDf = RecommenderRepository.recommender_for_user_cfm(users_items_matrix_df,user_id= userId, interact_matrix = users_items_matrix_df,df_content= amazon_review_data_ref)
             productsRecommendedListTemp = []
             for innerIndex, innerDfRow in tempDf.iterrows():
                 productId = innerDfRow['product_id']
@@ -211,7 +211,7 @@ class RecommenderRepository(IrecommenderRepository):
             
         return userProductRecommendationList
 
-    def variatioinal_autoencoder():
+    def variational_autoencoder():
         
         reviewRes = MongodbClient.db_mongo_find_documents(config["connection_string_mongo"],'test','reviews', {})
         review_dataset = pd.DataFrame(reviewRes)
@@ -255,13 +255,13 @@ class RecommenderRepository(IrecommenderRepository):
                 
         return userProductRecommendationList
 
-    def loadData_variatioinal_autoencoder():
-        userProductRecommendationList = RecommenderRepository.variatioinal_autoencoder();
+    def loadData_variational_autoencoder():
+        userProductRecommendationList = RecommenderRepository.variational_autoencoder();
         
         for data in userProductRecommendationList:
             try:
                 obj = {"$set":{"product_recommendations":data['recommended_products']}}
-                MongodbClient.db_mongo_update_many_documents(config["connection_string_mongo"],'MyDb','users', {"user_id":data['user_id']},obj)
+                MongodbClient.db_mongo_update_many_documents(config["connection_string_mongo"],'test','users', {"user_id":data['user_id']},obj)
             except:
                 print(data['user_id'])
                 return 
@@ -304,7 +304,7 @@ class RecommenderRepository(IrecommenderRepository):
         return model
 
     # Private
-    def recommender_for_user(users_items_matrix_df,user_id, interact_matrix, df_content,topn = 10):
+    def recommender_for_user_cfm(users_items_matrix_df,user_id, interact_matrix, df_content,topn = 10):
         '''
         Recommender Products for UserWarning
         '''

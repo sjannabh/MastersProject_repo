@@ -11,28 +11,35 @@ import * as API from "../api/serverApis.js";
 
 const HomePage = () => {
   const [products, setProducts] = useState(null);
+  const [carouselType, setCarouselType] = useState(null);
 
-  const getSearchResults = () => {
-    API.productsList("usb", 10).then((searchResults) => {
-      const productList = searchResults.data;
-      setProducts(productList);
-      console.log("productList");
-      console.log(products);
+  const getUserRecommendedDate = () => {
+    setCarouselType("Your Recommended Products");
+    let userId = JSON.parse(localStorage.getItem("user")).user_id;
+    API.userInfo(userId).then((searchResults) => {
+      let data = searchResults.data;
+      console.log("data");
+      console.log(data);
+
+      API.productCarouselData(data).then((searchResult) => {
+        const productList = searchResult.data;
+        setProducts(productList);
+      });
     });
   };
 
-  useEffect(() => {
-    getRecResults().then((product) => setProducts(product));
-  }, []);
-
-  const getRecResults = () => {
-    const temp = fetch(API.productsList("usb", 10)); //.then((searchResults) => {
-    //   const productList = searchResults.data;
-    //setProducts(productList);
-    console.log("temp");
-    console.log(products);
-    return temp;
+  const getGeneralRecommendedDate = () => {
+    setCarouselType("Top Recommended Products");
+    API.productsList("usb", 10).then((searchResults) => {
+      const productList = searchResults.data;
+      setProducts(productList);
+    });
   };
+  useEffect(() => {
+    localStorage.getItem("authenticated") === "true"
+      ? getUserRecommendedDate()
+      : getGeneralRecommendedDate();
+  }, []);
 
   return (
     <div className="bg-amazonclone-background">
@@ -88,8 +95,8 @@ const HomePage = () => {
             />
           </div>
         </div>
-        <CarouselProduct products={products} />
-        <CarouselCategory />
+        <CarouselProduct products={products} carouselType={carouselType} />
+        {/* <CarouselCategory /> */}
         <div className="h-[200px]">
           <img
             className="h-[100%] m-auto"
