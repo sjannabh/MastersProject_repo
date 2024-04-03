@@ -125,11 +125,11 @@ def autoencoder_based_collaborative_filter_model():
     return response,200
 
 # Variational Autoencoder
-@server.route("/api/v1/DataRecommendation/variationalAutoencoder",methods=['GET'])
+@server.route("/api/v1/DataRecommendation/Autoencoder",methods=['GET'])
 # @cross_origin(origin='localhost',headers=['Content- Type','Authorization'])
-def variational_autoencoder():
+def autoencoder():
 
-    response = jsonify(RecommenderRepository.variational_autoencoder())
+    response = jsonify(RecommenderRepository.autoencoder())
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response,200
 

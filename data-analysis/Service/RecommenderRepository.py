@@ -211,7 +211,7 @@ class RecommenderRepository(IrecommenderRepository):
             
         return userProductRecommendationList
 
-    def variational_autoencoder():
+    def autoencoder():
         
         reviewRes = MongodbClient.db_mongo_find_documents(config["connection_string_mongo"],'test','reviews', {})
         review_dataset = pd.DataFrame(reviewRes)
@@ -255,8 +255,8 @@ class RecommenderRepository(IrecommenderRepository):
                 
         return userProductRecommendationList
 
-    def loadData_variational_autoencoder():
-        userProductRecommendationList = RecommenderRepository.variational_autoencoder();
+    def loadData_autoencoder():
+        userProductRecommendationList = RecommenderRepository.autoencoder();
         
         for data in userProductRecommendationList:
             try:
